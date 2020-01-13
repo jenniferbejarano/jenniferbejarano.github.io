@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<!-- Assignment 1 -->
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <title> Jennifer Bejarano </title>
+</head>
+
+<!-- Start of Body -->
+<body>
+
+    <div class = "header">
+        <h1> <b> Personal Webpage </b> </h1>
+        <h3> Resume </h3>
+    </div>
+
+    <!-- Navigation Bar with Hyperlinks in an unordered list -->
+    <div class="navigation">
+        <p id = navText><b>Navigation</b></p>
+        <ul>
+            <li><a href="./home.html">Home</a></li>
+            <li><a href="./resume.html">Resume</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </div>
+        <div class="side">
+            <p id=midText> Side Bar </p>
+            <button type="button" onclick="changeRed()">Red</button>
+            <button type="button" onclick="changeBlue()">Blue</button>
+            <button type="button" onclick="changeGreen()">Green</button>
+            <button type="button" onclick="changeClear()">No color</button><br>
+            <button type="button" onclick="smallText()">Small Text</button>
+            <button type="button" onclick="medText()">Medium Text</button>
+            <button type="button" onclick="largeText()">Large Text</button>
+            <p id=image></p>
+
+        </div>
+
+        <br>
+<!-- Clickable text to show/hide content  -->
+        <div class="content">
+                <br>
+                <p class="hov" id="info">Contact Info<br><p id="subInfo" hidden>
+                    
+                </p></p>
+
+                <p class="hov" id="work">Work Experience<br><p id="subWork" hidden>
+                    <!--Resume things to go here.(Work Experience Info)-->
+                    Seasonal Sales Associate                            October 2018 – December 2018 <br>
+                    <br>
+                        Party City - Richardson, TX <br>
+                        •	Provided customer service based on the customer’s search inquiries.<br>
+                        •	Took and prepared balloon orders placed in-person and by phone.<br>
+                        •	Restocked and organized the sales floor.<br>
+                        •	Performed tasks as specified by the general manager.<br>
+                    <br>
+                        Summer Food Service Site Supervisor					June 2017 - July 2017
+                        Fort Bend County - Rosenberg, TX
+                        ●	Distributed lunches to children each week from Monday to Thursday.
+                        ●	Gauged daily lunch orders based on attendance so as to not overestimate or underestimate orders.
+                        ●	Kept daily and weekly meal order documentation well organized.
+                        ●	Managed a clean, sanitary environment where food was handled. 
+                        
+                        Summer Assistant, Computer Technician				June 2014 - August 2014
+                        Lamar CISD - Rosenberg, TX
+                        •	Followed lead technician’s instructions to image and clean school district computers to ensure computers were functional for the upcoming school year.
+                        •	Repaired issues with computers when capable, and reported to lead technician if the issue could not be resolved.
+                        •	Unpacked and assembled computers for a newly opened school.
+                </p></p>
+
+                <p class="hov" id="edu">Education<br><p id="subEdu" hidden>
+                    Resume things to go here.(Education Info)
+
+                </p></p>
+
+                <p class="hov" id="skill">Skills<br><p id="subSkill" hidden>
+                    Resume things to go here.(Other Skill info)
+
+                </p></p>
+            <br>
+        </div>
+    <div class="footer">
+        <h3><em> Jennifer Bejarano</em></h3>
+        <p id="time">time</p>
+    </div>
+
+    <!-- link to javascript -->
+    <script src="myscript.js"></script>
+</body>
+</html>
