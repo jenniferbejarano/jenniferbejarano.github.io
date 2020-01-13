@@ -1,0 +1,167 @@
+/* 
+mystyle.css 
+*/
+
+html{
+
+    background: url(webbg.png) fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a:link{
+    color:purple;
+}
+a:visited {
+    color: lightcyan;
+}
+a:hover { 
+    background-color:royalblue;
+    color: palegoldenrod;
+}
+a:active { 
+    background-color: skyblue;
+}
+ul {
+    background-color: royalblue;
+    border: 3px solid black;
+    height: 25px;
+    text-align: center;
+    padding-top: 5px;
+}
+body {
+    text-align: center;
+}
+
+
+.header{
+    text-align: center;
+    text-shadow: 2px 2px gray;
+    font-size: 20px;
+}
+.navigation {
+    border: 2px;
+    /*height: 40px;*/
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    font-style: italic;
+    border-width: thin;
+    font-size: 20px;
+}
+.navigation li {
+    margin: 2em;
+    display: inline;
+}
+.side {
+    width: 20%;
+    float: left;
+    position: static;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+.content{
+    width: 65%;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 20px;
+    padding-left: 10px;
+    
+}
+.footer {
+    width: 10em;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    clear: both;
+    
+}
+
+.hov:hover{
+        background: powderblue;
+        cursor: pointer;
+}
+
+
+#navText{
+    text-align: center;
+}
+#midText{
+    text-align: center;
+    border: solid black;
+}
+#tableContent{
+    text-align: left;
+    border: 2px solid black;
+    font-weight: bold;
+    opacity: 0.75;
+}
+#hide{
+    visibility: hidden;
+}
+
+#contact{
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#info{
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 1px 1px rgb(112, 72, 20);
+}
+#work{
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 1px 1px rgb(112, 72, 20);
+}
+#edu{
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 1px 1px rgb(112, 72, 20);
+}
+#skill{
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 1px 1px rgb(112, 72, 20);
+}
+
+#subContact{
+    text-align: left;
+}
+
+#subInfo{
+    text-align: left;
+}
+#subWork{
+    text-align: left;
+}
+#subEdu{
+    text-align: left;
+}
+#subSkill{
+    text-align: left;
+}
+
+
+#regText{
+    display: inline-block;
+}
