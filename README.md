@@ -2,5 +2,4 @@
 Personal Portfolio Site
 
 To add:
-Unity class project
-Database Practice
+Unity class project, Database Practice
