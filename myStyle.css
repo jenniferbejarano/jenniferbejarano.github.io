@@ -3,26 +3,25 @@ mystyle.css
 */
 
 html{
-
-    background: url(webbg.png) fixed;
+    background: white;
     background-repeat: no-repeat;
     background-size: cover;
 }
 a:link{
-    color:purple;
+    color:royalblue;
 }
 a:visited {
-    color: lightcyan;
+    color: grey;
 }
 a:hover { 
-    background-color:royalblue;
-    color: palegoldenrod;
+    background-color:lightgray;
+    color: white;
 }
 a:active { 
     background-color: skyblue;
 }
 ul {
-    background-color: royalblue;
+    background-color: white;
     border: 3px solid black;
     height: 25px;
     text-align: center;
@@ -32,17 +31,12 @@ body {
     text-align: center;
 }
 
-
 .header{
     text-align: center;
-    text-shadow: 2px 2px gray;
+    text-shadow: 1px 1px gray;
     font-size: 20px;
 }
 .navigation {
-    border: 2px;
-    /*height: 40px;*/
-    border-style: solid;
-    border-color: black;
     text-align: center;
     font-style: italic;
     border-width: thin;
@@ -52,7 +46,7 @@ body {
     margin: 2em;
     display: inline;
 }
-.side {
+.sideL {
     width: 20%;
     float: left;
     position: static;
@@ -84,84 +78,31 @@ body {
     
 }
 
-.hov:hover{
-        background: powderblue;
-        cursor: pointer;
-}
-
-
-#navText{
+/*resume accordion format*/ 
+.accordion{
+    background-color: darkgrey;
+    color: black;
+    cursor:pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
     text-align: center;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
 }
+.active, .accordion:hover{
+        background: lightgrey;
+}
+.panel{
+    padding: 0 18px;
+    display: none;
+    background-color: lightgrey;
+    overflow: hidden;
+    text-align: left;
+}
+
 #midText{
     text-align: center;
     border: solid black;
-}
-#tableContent{
-    text-align: left;
-    border: 2px solid black;
-    font-weight: bold;
-    opacity: 0.75;
-}
-#hide{
-    visibility: hidden;
-}
-
-#contact{
-    margin-left: 10px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    padding-top: 20px;
-    padding-bottom: 10px;
-}
-
-#info{
-    padding: 10px;
-    border: 2px solid black;
-    text-align: center;
-    font-size: 30px;
-    text-shadow: 1px 1px rgb(112, 72, 20);
-}
-#work{
-    padding: 10px;
-    border: 2px solid black;
-    text-align: center;
-    font-size: 30px;
-    text-shadow: 1px 1px rgb(112, 72, 20);
-}
-#edu{
-    padding: 10px;
-    border: 2px solid black;
-    text-align: center;
-    font-size: 30px;
-    text-shadow: 1px 1px rgb(112, 72, 20);
-}
-#skill{
-    padding: 10px;
-    border: 2px solid black;
-    text-align: center;
-    font-size: 30px;
-    text-shadow: 1px 1px rgb(112, 72, 20);
-}
-
-#subContact{
-    text-align: left;
-}
-
-#subInfo{
-    text-align: left;
-}
-#subWork{
-    text-align: left;
-}
-#subEdu{
-    text-align: left;
-}
-#subSkill{
-    text-align: left;
-}
-
-
-#regText{
-    display: inline-block;
 }
