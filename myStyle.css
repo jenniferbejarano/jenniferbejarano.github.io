@@ -32,6 +32,10 @@ body {
     text-align: center;
     
 }
+img {
+    border: double dotted solid;
+    border-color: blueviolet;
+}
 
 .header{
     text-align: center;
