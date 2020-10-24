@@ -14,10 +14,10 @@ a:link{
     color:rgb(7, 4, 177);
 }
 a:visited {
-    color: teal;
+    color: rgb(87, 0, 128);
 }
 a:hover { 
-    color: teal;
+    color: rgb(87, 0, 128);
 }
 a:active { 
     background-color: skyblue;
