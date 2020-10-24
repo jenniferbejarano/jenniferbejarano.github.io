@@ -100,7 +100,7 @@ body {
 .panel{
     padding: 0 18px;
     display: none;
-    background-color: rgba(0, 0, 0, .3);
+    background-color: rgba(0, 0, 0, .2);
     border: 1px solid black;
     overflow: hidden;
     text-align: left;
