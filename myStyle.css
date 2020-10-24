@@ -23,7 +23,6 @@ a:active {
     background-color: skyblue;
 }
 ul {
-    border: 3px dotted #ae2d66;
     height: 25px;
     text-align: center;
     padding-top: 5px;
@@ -109,7 +108,7 @@ img {
     text-align: left;
 }
 
+/*about me tab*/
 #midText{
     text-align: center;
-    border: solid black;
 }
