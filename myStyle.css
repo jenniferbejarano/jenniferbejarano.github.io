@@ -82,7 +82,7 @@ body {
 
 /*resume accordion format*/ 
 .accordion{
-    background-color: rgba(0, 0, 0, .1);
+    background-color: rgba(0, 0, 0, .2);
     border: 2px solid black;
     color: black;
     cursor:pointer;
