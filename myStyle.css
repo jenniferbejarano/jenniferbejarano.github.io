@@ -33,7 +33,7 @@ body {
     
 }
 img {
-    border: double dotted solid;
+    border: ridge;
     border-color: blueviolet;
 }
 
