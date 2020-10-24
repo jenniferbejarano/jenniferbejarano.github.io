@@ -33,8 +33,7 @@ body {
     
 }
 img {
-    border: ridge;
-    border-color: blueviolet;
+    border: 5px ridge blueviolet;
 }
 
 .header{
